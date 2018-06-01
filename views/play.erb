@@ -1,1 +1,9 @@
-<h1>Welcome, <%= @name %>!</h1>
+<h1>Welcome, <%= $name %>!</h1>
+
+<h2>Choose your weapon:</h2>
+
+<form action='/outcome' method='post'>
+  <input type='submit' name='weapon' id='Rock' value='Rock'>
+  <input type='submit' name='weapon' id='Paper' value='Paper'>
+  <input type='submit' name='weapon' id='Scissors' value='Scissors'>
+</form>

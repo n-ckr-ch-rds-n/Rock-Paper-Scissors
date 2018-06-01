@@ -1,3 +1,7 @@
+# As a marketeer
+# So that I can see my name in lights
+# I would like to register my name before playing an online game
+
 feature 'home page' do
   scenario 'the name of the game is on the home page' do
     visit ('/')
