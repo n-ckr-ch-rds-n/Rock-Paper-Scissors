@@ -1,0 +1,2 @@
+require './rpscontrol'
+run RPS
