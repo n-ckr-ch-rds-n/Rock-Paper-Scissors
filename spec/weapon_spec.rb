@@ -5,7 +5,7 @@ describe Weapon do
   describe '#pick' do
     it 'picks a random weapon' do
       allow(weapon).to receive(:rand).and_return 2
-      expect(weapon.pick).to eq "Scissors"
+      expect(weapon.pick).to eq 'Scissors'
     end
   end
 end
